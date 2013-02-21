@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
 
 gem 'rails', '3.2.12'
+gem 'bcrypt-ruby', '3.0.1'
 # gem 'bootstrap-sass', '2.1'
 
 # Bundle edge Rails instead:
@@ -19,6 +20,7 @@ group :development, :test do
   #gem 'thin'
   gem 'rails-dev-boost', :git => 'git://github.com/thedarkone/rails-dev-boost.git'
   gem 'rb-fsevent', '~> 0.9.1'
+  gem 'annotate', '2.5.0'
 end
 
 group :test do
