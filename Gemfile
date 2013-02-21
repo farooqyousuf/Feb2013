@@ -16,7 +16,7 @@ end
 group :development, :test do
   gem 'rspec-rails', '2.11.0'
   gem 'sqlite3', '1.3.5'
-  gem 'thin'
+  #gem 'thin'
   gem 'rails-dev-boost', :git => 'git://github.com/thedarkone/rails-dev-boost.git'
   gem 'rb-fsevent', '~> 0.9.1'
 end
